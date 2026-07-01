@@ -18,21 +18,10 @@ public class PairProb {
         return pairFrnds(n-1) + (n-1)*pairFrnds(n-2);
         
     }
-    public static void printBinString(int n, int lastplace , String str){
-        // base case
-        if (n==0) {
-            System.out.println(str);
-            return;
-        }
-        printBinString(n-1, 0, str+"0");
-        if (n==0) {
-            printBinString(n-1, 1, str+"1");
-        }
-    }
+    
     public static void main(String[] args) {
-        printBinString(3, 0, "");
-       // System.out.println(pairFrnds(5));
-    //    System.out.println(printBinString(3, 0, new StringBuilder("")));
+    
+        System.out.println(pairFrnds(5));
 
     }
 }

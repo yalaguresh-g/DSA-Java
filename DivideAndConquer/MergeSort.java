@@ -47,12 +47,7 @@ public class MergeSort {
             arr[i]= temp[k];
         }
     }
-    public static void printArr(int arr[]){
-        for(int i=0 ; i<arr.length;i++){
-            System.out.print(arr[i]+" ");
-        }
-        System.out.println();
-    }
+    -
     public static void main(String[] args) {
         int arr[] = {6,2,3,-1,-10,22,54,8,9,5,4,2,-2};
         printMergeSort(arr, 0, arr.length-1);

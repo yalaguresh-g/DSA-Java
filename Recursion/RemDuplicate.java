@@ -26,6 +26,6 @@ public class RemDuplicate {
 
     public static void main(String[] args) {
         String str = "apnacollege";
-        removeDuplicate(str, 0, new StringBuilder(), new boolean[26]);
+        removeDuplicate(str, 0, new StringBuilder(""), new boolean[26]);
     }
 }
