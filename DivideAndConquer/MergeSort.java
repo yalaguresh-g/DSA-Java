@@ -47,10 +47,10 @@ public class MergeSort {
             arr[i]= temp[k];
         }
     }
-    -
+    
     public static void main(String[] args) {
         int arr[] = {6,2,3,-1,-10,22,54,8,9,5,4,2,-2};
         printMergeSort(arr, 0, arr.length-1);
-        printArr(arr);
+        // printArr(arr);
     }
 }

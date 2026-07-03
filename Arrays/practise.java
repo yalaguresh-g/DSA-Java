@@ -1,4 +1,4 @@
-
+package Arrays;
 public class practise {
     public static void main(String[] args) {
         int arr[] = {8,-4,-45,25,8,9,365};

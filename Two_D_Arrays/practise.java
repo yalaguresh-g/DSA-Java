@@ -1,3 +1,4 @@
+package Two_D_Arrays;
 public class practise {
     public static void main(String[] args) {
         int arr[][] = {

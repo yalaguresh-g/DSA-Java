@@ -1,3 +1,4 @@
+package Practice_Question;
 public class TwoDarr {
     public static void CountNum(int[][] arr){
         int N = arr.length;
